@@ -1,1 +1,45 @@
 /* Holiii otra vez */
+body{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*estilos header*/
+.alinear{
+	float: left;
+}
+
+.navbar-default{
+	background-color: white;
+	border:none;
+	border-radius: 0;
+}
+
+.color-menu{
+	border-bottom:solid thin red;
+}
+
+.nav a:hover{
+	border-bottom:solid 2px red;
+}
+
+.alinear-menu{
+	padding-left: 0;
+}
+
+.logo a{
+	font-size: 22px;
+	color:black;
+	margin-bottom: 20px;
+}
+
+a span{
+	color:red;
+}
+
+.buscar{
+	border:none;
+	background-color: red;
+	border-radius:0;
+}
+
+
