@@ -51,7 +51,7 @@ a span{
 
 /*estilos home*/
 #home{
-	margin-top: 30px;
+	margin: 30px auto;
 }
 
 .etiqueta{
@@ -59,17 +59,117 @@ a span{
 	font-size: 15px;
 	color:white;
 	width: 120px;
-	padding:5px;
 	margin: 0;
-	left: 0;
+	padding: 5px;
+}
+
+.etiqueta2{
+	background-color: red;
+	font-size: 15px;
+	color:white;
+	width: 120px;
+	margin: 0;
+	padding: 5px;
+	z-index: 10;
+	position: absolute;
 }
 
 .principal{
 	background-image: url(../img/1.png);
 	background-size: cover;
-	height: 200px;
+	background-position: center;
+	height: 430px;
 }
 
 .imagen-full img{
 	width: 100%;
+}
+
+.principal-mini img{
+	width: 100%;
+	padding-left: 0;
+}
+
+.separar{
+	padding-top: 24px;
+}
+
+.separar-lateral{
+	padding-left: 24px;
+}
+
+.separar-lateral1{
+	padding-right: 12px;
+}
+
+.separar-lateral2{
+	padding-left: 12px;
+}
+
+/*estilos NEWS*/
+#news{
+	margin: 30px auto;
+}
+
+h2{
+	font-size: 16px;
+	width: 100%;
+	padding-bottom:4px;
+	border-bottom: solid thin red;
+}
+
+#news a{
+	color: black;
+}
+
+#news a:hover{
+	width: 100%;
+	text-decoration: none;
+	color:black;
+	border-bottom: solid 2px red;
+	padding-bottom:2px;
+}
+
+.video{
+	padding-top: 10px;
+}
+
+.video img{
+	width: 100%;
+}
+
+.video h4{
+	margin-top: 0;
+	font-size: 16px;
+	color: red;
+}
+
+.estrellas{
+	color: red;
+}
+
+hr{
+	border:solid 0.05em silver;
+}
+
+.face{
+	background-color: #3b5998;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.twit{
+	background-color: #4099ff;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.rss{
+	background-color: #ee802f;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.face i, .twit i, .rss i{
+	padding: 20px;
 }
